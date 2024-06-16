@@ -40,24 +40,16 @@ const Skills = () => {
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
-        style={customStyles}
-      >
+        style={customStyles}>
         <div className="flex items-center gap-2">
           <img className="h-10" src={selectSkill?.logo} alt="..." />
           <h6>{selectSkill?.name}</h6>
         </div>
         <br />
         <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit, ame.</li>
-          <li>Lorem ipsum dolor sit, amet consectetur</li>
-          <li>
-            Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
-            beatae quos rem.
-          </li>
+          {selectSkill?.points.map((value) => {
+            return <li key={value}>{value}</li>;
+          })}
         </ul>
         <br />
         <div className="flex justify-end">
@@ -84,8 +76,7 @@ const Skills = () => {
               data-aos-delay={i * 400}
               className="bg-white sm:cursor-pointer 
                relative group w-full flex items-center
-                gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200"
-            >
+                gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200">
               <div>
                 <img
                   src={skill.logo}
@@ -101,8 +92,7 @@ const Skills = () => {
                     setSelectSkill(skill);
                     openModal();
                   }}
-                  className="text-xl absolute top-3 right-3"
-                >
+                  className="text-xl absolute top-3 right-3">
                   {createElement(skills.icon)}
                 </div>
               </div>

@@ -69,44 +69,89 @@ export const content = {
         text: "Projects Worked for Learning and Practicing..",
       },
       {
-        count: "",
-        text: "Write once, run anywhere.",
+        count: "I am a 2024 passout and a fresher.",
+        text: "Write once, run anywhere..",
       },
     ],
   },
   skills: {
     title: "Skills",
     subtitle: "MY TOP SKILLS",
+    sbtitle: "kajdklsjfdkjdksjfkjskjfksjkjfksj",
+    jatitle: "jskjakjsdkjskajksjkdjakjfkdjsaljfl",
     skills_content: [
       {
         name: "Java",
         para: "",
         logo: java,
+        points: [
+          "Cross-Platform: Runs on any device with JVM.",
+          "Object-Oriented: Enhances modularity and reusability.",
+          "Rich Library: Extensive standard library available.",
+          "Automatic GC: Manages memory automatically.",
+          "Secure: Provides a robust security model.",
+        ],
       },
       {
         name: "Spring Boot",
         para: "",
         logo: spring,
+
+        points: [
+          "Rapid Development: Simplifies Java web app creation.",
+          "Embedded Servers: Includes Tomcat, Jetty.",
+          "Microservices Ready: Ideal for microservices.",
+          "Minimal Configuration: Uses sensible defaults.",
+          "Spring Integration: Works with Spring ecosystem.",
+        ],
       },
       {
         name: "Java Script",
         para: "",
         logo: js,
+        points: [
+          "Dynamic Web: Enables interactive web pages.",
+          "Event-Driven: Handles user actions.",
+          "Async Programming: Supports async operations.",
+          "Broad Compatibility: Runs in all browsers.",
+          "Rich Libraries: Extensive frameworks (React, Angular).",
+        ],
       },
       {
         name: "React js",
         para: "",
         logo: reactjs,
+        points: [
+          "Declarative UI: Simplifies UI development.",
+          "Component-Based: Encourages reusable components.",
+          "Virtual DOM: Boosts performance.",
+          "JSX: JavaScript syntax extension.",
+          "One-way Data Flow: Predictable data binding.",
+        ],
       },
       {
         name: "mysql",
         para: "",
         logo: mysql,
+        points: [
+          "Open Source: Free and community-supported.",
+          "ACID Compliance: Reliable transactions.",
+          "Scalable: Handles small to large applications.",
+          "High Performance: Optimized for speed.",
+          "Cross-Platform: Runs on multiple OS.",
+        ],
       },
       {
         name: "Python",
         para: "",
         logo: python,
+        points: [
+          "Readable Syntax: Easy to read and write.",
+          "Versatile: Used in various fields.",
+          "Extensive Libraries: Rich standard and third-party libraries.",
+          "Interpreted: Executes code line-by-line.",
+          "Strong Community: Large support network.",
+        ],
       },
     ],
     icon: MdArrowForward,
@@ -151,36 +196,7 @@ export const content = {
       },
     ],
   },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
-    testimonials_content: [
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar1,
-        name: "JOHN DOE",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar2,
-        name: "Tom Alex",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar3,
-        name: "Johnny",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "ROBBIN",
-      },
-    ],
-  },
+
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
