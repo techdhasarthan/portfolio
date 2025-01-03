@@ -6,10 +6,13 @@ import mysql from "./assets/images/Skills/mysql.png";
 import js from "./assets/images/Skills/js.png";
 import reactjs from "./assets/images/Skills/react.png";
 import spring from "./assets/images/Skills/spring.png";
-import python from "./assets/images/Skills/python.png";
+import node from "./assets/images/Skills/node.png";
+import flutter from "./assets/images/Skills/flutter.png";
+import native from "./assets/images/Skills/native.png";
+import tailwind from "./assets/images/Skills/tailwind.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
-import services_logo2 from "./assets/images/Services/logo2.png";
+import app from "./assets/images/Services/app.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
 import project1 from "./assets/images/projects/img.png";
@@ -58,14 +61,14 @@ export const content = {
     },
   ],
   hero: {
-    title: "JAVA DEVELOPER",
+    title: "Full Stack Developer",
     firstName: "DHASARATHAN",
     LastName: "D",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "11+",
+        count: "14+",
         text: "Projects Worked for Learning and Practicing..",
       },
       {
@@ -96,7 +99,6 @@ export const content = {
         name: "Spring Boot",
         para: "",
         logo: spring,
-
         points: [
           "Rapid Development: Simplifies Java web app creation.",
           "Embedded Servers: Includes Tomcat, Jetty.",
@@ -106,7 +108,7 @@ export const content = {
         ],
       },
       {
-        name: "Java Script",
+        name: "JavaScript",
         para: "",
         logo: js,
         points: [
@@ -118,7 +120,7 @@ export const content = {
         ],
       },
       {
-        name: "React js",
+        name: "React.js",
         para: "",
         logo: reactjs,
         points: [
@@ -130,7 +132,7 @@ export const content = {
         ],
       },
       {
-        name: "mysql",
+        name: "MySQL",
         para: "",
         logo: mysql,
         points: [
@@ -142,15 +144,51 @@ export const content = {
         ],
       },
       {
-        name: "Python",
+        name: "Node.js",
         para: "",
-        logo: python,
+        logo: node,
         points: [
-          "Readable Syntax: Easy to read and write.",
-          "Versatile: Used in various fields.",
-          "Extensive Libraries: Rich standard and third-party libraries.",
-          "Interpreted: Executes code line-by-line.",
-          "Strong Community: Large support network.",
+          "Event-Driven: Handles multiple connections efficiently.",
+          "Non-Blocking I/O: Improves performance.",
+          "JavaScript Everywhere: Same language on server and client.",
+          "NPM: Large ecosystem of packages.",
+          "Scalable: Suitable for microservices and real-time apps.",
+        ],
+      },
+      {
+        name: "Flutter",
+        para: "",
+        logo: flutter,
+        points: [
+          "Cross-Platform: Single codebase for iOS and Android.",
+          "Hot Reload: Fast development cycle.",
+          "Customizable Widgets: Rich UI components.",
+          "High Performance: Compiles to native code.",
+          "Strong Community: Growing support and resources.",
+        ],
+      },
+      {
+        name: "React Native",
+        para: "",
+        logo: native,
+        points: [
+          "Cross-Platform: Single codebase for iOS and Android.",
+          "Hot Reload: Fast development cycle.",
+          "Native Performance: Uses native components.",
+          "Large Community: Extensive libraries and tools.",
+          "JavaScript: Leverages existing web skills.",
+        ],
+      },
+      {
+        name: "Tailwind CSS",
+        para: "",
+        logo: tailwind,
+        points: [
+          "Utility-First: Composable utility classes.",
+          "Responsive Design: Built-in breakpoints.",
+          "Customizable: Easily extendable.",
+          "Performance: Minimal CSS footprint.",
+          "Integration: Works with any framework.",
         ],
       },
     ],
@@ -163,17 +201,17 @@ export const content = {
       {
         title: "Core Java",
         para: "Core Java refers to the fundamental components of the Java programming language, including its basic syntax, object-oriented programming principles, essential classes, and standard libraries.",
-        logo: services_logo2,
-      },
-      {
-        title: "Spring Boot",
-        para: "Spring Boot is a framework built on top of the Spring Framework that simplifies the creation of stand-alone, production-grade Spring applications. It offers convention over configuration, allowing developers to focus on writing business logic by providing embedded servers, auto-configuration, and a suite of pre-configured starter dependencies.",
         logo: services_logo3,
       },
       {
         title: "Web Development",
         para: "Web development involves creating, building, and maintaining websites or web applications, encompassing aspects such as web design, web publishing, web programming, and database management.",
         logo: services_logo1,
+      },
+      {
+        title: "App Development",
+        para: "App development involves creating software applications that run on mobile devices, including smartphones and tablets. This process includes designing the user interface, coding the functionality, testing for performance, and deploying the app to app stores.",
+        logo: app,
       },
     ],
   },
@@ -196,13 +234,12 @@ export const content = {
       },
     ],
   },
-
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "I am a highly skilled and motivated professional with a strong background in Java development,With a proven track record of the practice the java programming, I possess a deep understanding of Core Java.I am eager to contribute to your team and help drive the success of your projects and initiatives. consider my application for Java Develvoper, and I am confident that my skills and passion will be a valuable addition to your company.",
+    para: "I am a highly skilled and motivated professional with a strong background in full-stack development and app development. I have gained valuable hands-on experience during a 5-month internship, where I worked on real-world projects involving both frontend and backend technologies. I am eager to contribute to your team and help drive the success of your projects and initiatives. My passion for learning, coupled with my dedication to delivering high-quality work, makes me confident that I will be a valuable addition to your company. Consider my application, and I am excited about the opportunity to collaborate and make a positive impact.",
     btnText: "Hire Me",
   },
   Contact: {
